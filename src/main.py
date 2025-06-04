@@ -93,10 +93,18 @@ class MenuScene(SceneBase):
         super().__init__(game)
         self._play_music('menu_bgm.ogg')
         self.icons = []  # list of (image, label, key)
-        for fname in sorted(os.listdir(ICONS_DIR))[:16]:
+        skip = {
+            "settings",
+            "general_knowledge",
+            "credits_bg",
+            "learn_futa's_history",
+        }
+        for fname in sorted(os.listdir(ICONS_DIR)):
             if fname.lower().endswith('.png'):
-                img = pygame.image.load(os.path.join(ICONS_DIR, fname)).convert_alpha()
                 key = os.path.splitext(fname)[0].lower()
+                if key in skip:
+                    continue
+                img = pygame.image.load(os.path.join(ICONS_DIR, fname)).convert_alpha()
                 label = key.replace('_', ' ').title()
                 self.icons.append((img, label, key))
 
@@ -109,7 +117,8 @@ class MenuScene(SceneBase):
 
     def draw(self, surf):
         surf.fill((0, 0, 0))
-        cols, rows = 4, 4
+        cols = 4
+        rows = max(1, (len(self.icons) + cols - 1) // cols)
         cell_w = SCREEN_WIDTH / cols
         cell_h = (SCREEN_HEIGHT - 40) / rows
         self.icon_rects = []
@@ -147,9 +156,15 @@ class MenuScene(SceneBase):
 class CategoryScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
-        # Use a simple colored surface instead of loading a background image
-        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
-        self.bg.fill((0, 0, 128))
+        bg_file = f"{game.selected_key}_bg.png"
+        path = os.path.join(IMG_DIR, bg_file)
+        if not os.path.exists(path):
+            path = os.path.join(IMG_DIR, f"{game.selected_key}.png")
+        if os.path.exists(path):
+            self.bg = pygame.image.load(path).convert()
+        else:
+            self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+            self.bg.fill((0, 0, 128))
         self._play_music('calm_bgm.ogg')
         self.buttons = []
         w, h, g = 200, 60, 20
@@ -205,10 +220,16 @@ class InputScene(SceneBase):
 class QuizScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
-        # Use a simple colored surface instead of loading a background image
         prefix = game.selected_key
-        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
-        self.bg.fill((0, 0, 128))
+        bg_file = f"{prefix}_bg.png"
+        path = os.path.join(IMG_DIR, bg_file)
+        if not os.path.exists(path):
+            path = os.path.join(IMG_DIR, f"{prefix}.png")
+        if os.path.exists(path):
+            self.bg = pygame.image.load(path).convert()
+        else:
+            self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+            self.bg.fill((0, 0, 128))
         self._play_music('game.mp3')
         score_path = os.path.join(AUDIO_DIR, 'score.wav')
         self.score_sfx = pygame.mixer.Sound(score_path) if os.path.exists(score_path) else None

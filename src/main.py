@@ -3,6 +3,7 @@ import sys
 import os
 import json
 import random
+import asyncio
 
 # Config
 ASSET_DIR = os.path.join(os.path.dirname(__file__), '..', 'assets')
@@ -93,10 +94,18 @@ class MenuScene(SceneBase):
         super().__init__(game)
         self._play_music('menu_bgm.ogg')
         self.icons = []  # list of (image, label, key)
-        for fname in sorted(os.listdir(ICONS_DIR))[:16]:
+        skip = {
+            "settings",
+            "general_knowledge",
+            "credits_bg",
+            "learn_futa's_history",
+        }
+        for fname in sorted(os.listdir(ICONS_DIR)):
             if fname.lower().endswith('.png'):
-                img = pygame.image.load(os.path.join(ICONS_DIR, fname)).convert_alpha()
                 key = os.path.splitext(fname)[0].lower()
+                if key in skip:
+                    continue
+                img = pygame.image.load(os.path.join(ICONS_DIR, fname)).convert_alpha()
                 label = key.replace('_', ' ').title()
                 self.icons.append((img, label, key))
 
@@ -109,7 +118,8 @@ class MenuScene(SceneBase):
 
     def draw(self, surf):
         surf.fill((0, 0, 0))
-        cols, rows = 4, 4
+        cols = 4
+        rows = max(1, (len(self.icons) + cols - 1) // cols)
         cell_w = SCREEN_WIDTH / cols
         cell_h = (SCREEN_HEIGHT - 40) / rows
         self.icon_rects = []
@@ -134,7 +144,9 @@ class MenuScene(SceneBase):
             for rect, label, key in self.icon_rects:
                 if rect.collidepoint(evt.pos):
                     if label == 'Cancel':
-                        self.game.change_scene(SCENE_MENU)
+                        self.game.running = False
+                    elif label == 'Settings':
+                        self.game.change_scene(SCENE_SETTINGS)
                     else:
                         self.game.selected_school = label
                         self.game.selected_key = key
@@ -144,9 +156,15 @@ class MenuScene(SceneBase):
 class CategoryScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
-        # Use a simple colored surface instead of loading a background image
-        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
-        self.bg.fill((0, 0, 128))
+        bg_file = f"{game.selected_key}_bg.png"
+        path = os.path.join(IMG_DIR, bg_file)
+        if not os.path.exists(path):
+            path = os.path.join(IMG_DIR, f"{game.selected_key}.png")
+        if os.path.exists(path):
+            self.bg = pygame.image.load(path).convert()
+        else:
+            self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+            self.bg.fill((0, 0, 128))
         self._play_music('calm_bgm.ogg')
         self.buttons = []
         w, h, g = 200, 60, 20
@@ -202,10 +220,16 @@ class InputScene(SceneBase):
 class QuizScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
-        # Use a simple colored surface instead of loading a background image
         prefix = game.selected_key
-        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
-        self.bg.fill((0, 0, 128))
+        bg_file = f"{prefix}_bg.png"
+        path = os.path.join(IMG_DIR, bg_file)
+        if not os.path.exists(path):
+            path = os.path.join(IMG_DIR, f"{prefix}.png")
+        if os.path.exists(path):
+            self.bg = pygame.image.load(path).convert()
+        else:
+            self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+            self.bg.fill((0, 0, 128))
         self._play_music('game.mp3')
         score_path = os.path.join(AUDIO_DIR, 'score.wav')
         self.score_sfx = pygame.mixer.Sound(score_path) if os.path.exists(score_path) else None
@@ -377,6 +401,7 @@ class Game:
         self.selected_key = None
         self.selected_difficulty = None
         self.player_name = None
+        self.running = True
         self.change_scene(SCENE_SPLASH)
 
     def change_scene(self, name):
@@ -410,18 +435,20 @@ class Game:
         self.selected_difficulty = difficulty
         self.change_scene(SCENE_INPUT)
 
-    def run(self):
-        while True:
+    async def run(self):
+        while self.running:
             for evt in pygame.event.get():
                 if evt.type == pygame.QUIT:
-                    pygame.quit()
-                    sys.exit()
-                self.scene.handle_event(evt)
+                    self.running = False
+                else:
+                    self.scene.handle_event(evt)
             if hasattr(self.scene, 'update'):
                 self.scene.update()
             self.scene.draw(self.screen)
             pygame.display.flip()
             self.clock.tick(FPS)
+            await asyncio.sleep(0)
+        pygame.quit()
 
 if __name__ == '__main__':
-    Game().run()
+    asyncio.run(Game().run())

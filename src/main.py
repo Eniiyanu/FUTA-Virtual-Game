@@ -144,7 +144,11 @@ class MenuScene(SceneBase):
             for rect, label, key in self.icon_rects:
                 if rect.collidepoint(evt.pos):
                     if label == 'Cancel':
+
                         self.game.running = False
+                        pygame.quit()
+                        sys.exit()
+
                     elif label == 'Settings':
                         self.game.change_scene(SCENE_SETTINGS)
                     else:

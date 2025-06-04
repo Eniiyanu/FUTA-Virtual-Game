@@ -3,6 +3,7 @@ import sys
 import os
 import json
 import random
+import asyncio
 
 # Config
 ASSET_DIR = os.path.join(os.path.dirname(__file__), '..', 'assets')
@@ -143,8 +144,11 @@ class MenuScene(SceneBase):
             for rect, label, key in self.icon_rects:
                 if rect.collidepoint(evt.pos):
                     if label == 'Cancel':
+
+                        self.game.running = False
                         pygame.quit()
                         sys.exit()
+
                     elif label == 'Settings':
                         self.game.change_scene(SCENE_SETTINGS)
                     else:
@@ -401,6 +405,7 @@ class Game:
         self.selected_key = None
         self.selected_difficulty = None
         self.player_name = None
+        self.running = True
         self.change_scene(SCENE_SPLASH)
 
     def change_scene(self, name):
@@ -434,18 +439,20 @@ class Game:
         self.selected_difficulty = difficulty
         self.change_scene(SCENE_INPUT)
 
-    def run(self):
-        while True:
+    async def run(self):
+        while self.running:
             for evt in pygame.event.get():
                 if evt.type == pygame.QUIT:
-                    pygame.quit()
-                    sys.exit()
-                self.scene.handle_event(evt)
+                    self.running = False
+                else:
+                    self.scene.handle_event(evt)
             if hasattr(self.scene, 'update'):
                 self.scene.update()
             self.scene.draw(self.screen)
             pygame.display.flip()
             self.clock.tick(FPS)
+            await asyncio.sleep(0)
+        pygame.quit()
 
 if __name__ == '__main__':
-    Game().run()
+    asyncio.run(Game().run())

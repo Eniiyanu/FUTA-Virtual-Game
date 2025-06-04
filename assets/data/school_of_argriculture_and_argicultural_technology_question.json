@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "What does the acronym SAAT stand for at FUTA?",
+      "options": [
+        "School of Animal and Aquaculture Technology",
+        "School of Agriculture and Agricultural Technology",
+        "School of Agricultural Arts and Technology",
+        "School of Aquatic and Agricultural Technology"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_easy_1.ogg"
+    },
+    {
+      "id": 2,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which department at SAAT focuses on crop production and soil management?",
+      "options": [
+        "Animal Production & Health",
+        "Food Science & Technology",
+        "Crop, Soil & Pest Management",
+        "Agricultural Economics & Farm Management"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_easy_2.ogg"
+    },
+    {
+      "id": 3,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which program deals with livestock breeding and care?",
+      "options": [
+        "Crop, Soil & Pest Management",
+        "Agricultural Engineering",
+        "Food Science & Technology",
+        "Animal Production & Health"
+      ],
+      "answerIndex": 3,
+      "audio": "saat_easy_3.ogg"
+    },
+    {
+      "id": 4,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which facility houses laboratories for food quality testing?",
+      "options": [
+        "Animal Health Clinic",
+        "Food Science & Technology Lab",
+        "Soil Testing Center",
+        "Farm Machinery Workshop"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_easy_4.ogg"
+    },
+    {
+      "id": 5,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which tool is commonly used to collect soil samples?",
+      "options": [
+        "Soil auger",
+        "Oscilloscope",
+        "Spectrometer",
+        "Thermometer"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_easy_5.ogg"
+    },
+    {
+      "id": 6,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which department studies farm machinery design?",
+      "options": [
+        "Food Science & Technology",
+        "Animal Production & Health",
+        "Agricultural Engineering",
+        "Crop, Soil & Pest Management"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_easy_6.ogg"
+    },
+    {
+      "id": 7,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which of these is NOT a SAAT department?",
+      "options": [
+        "Crop, Soil & Pest Management",
+        "Animal Production & Health",
+        "Food Science & Technology",
+        "Mechanical Engineering"
+      ],
+      "answerIndex": 3,
+      "audio": "saat_easy_7.ogg"
+    },
+    {
+      "id": 8,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which facility at SAAT contains greenhouses for plant research?",
+      "options": [
+        "Soil Testing Center",
+        "Greenhouse Complex",
+        "Food Processing Unit",
+        "Livestock Barn"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_easy_8.ogg"
+    },
+    {
+      "id": 9,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which department teaches farm business and marketing?",
+      "options": [
+        "Agricultural Economics & Farm Management",
+        "Food Science & Technology",
+        "Animal Production & Health",
+        "Agricultural Engineering"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_easy_9.ogg"
+    },
+    {
+      "id": 10,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Easy",
+      "question": "Which program covers biological control of pests?",
+      "options": [
+        "Animal Production & Health",
+        "Crop, Soil & Pest Management",
+        "Food Science & Technology",
+        "Agricultural Economics & Farm Management"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_easy_10.ogg"
+    },
+    {
+      "id": 11,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which year was SAAT officially established at FUTA?",
+      "options": [
+        "1985",
+        "1988",
+        "1992",
+        "1995"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_med_11.ogg"
+    },
+    {
+      "id": 12,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Who served as the pioneer Dean of SAAT?",
+      "options": [
+        "Prof. M. O. Akinola",
+        "Prof. F. S. Odumosu",
+        "Prof. A. E. Adegbite",
+        "Prof. K. T. Balogun"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_med_12.ogg"
+    },
+    {
+      "id": 13,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which crop is primarily researched for drought resistance at SAAT?",
+      "options": [
+        "Maize",
+        "Cassava",
+        "Sorghum",
+        "Rice"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_med_13.ogg"
+    },
+    {
+      "id": 14,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which facility is used for milk pasteurization trials?",
+      "options": [
+        "Dairy Processing Unit",
+        "Food Science & Tech Lab",
+        "Animal Health Clinic",
+        "Soil Testing Center"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_med_14.ogg"
+    },
+    {
+      "id": 15,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which software is commonly used for farm management simulation?",
+      "options": [
+        "ArcGIS",
+        "FarmWorks",
+        "SPSS",
+        "MATLAB"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_med_15.ogg"
+    },
+    {
+      "id": 16,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which lab conducts soil nutrient analysis at SAAT?",
+      "options": [
+        "Food Analysis Lab",
+        "Soil Testing Center",
+        "Pest Control Unit",
+        "Animal Nutrition Lab"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_med_16.ogg"
+    },
+    {
+      "id": 17,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which technique uses beneficial insects to control pests?",
+      "options": [
+        "Chemical spraying",
+        "Mechanical trapping",
+        "Biological control",
+        "Genetic modification"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_med_17.ogg"
+    },
+    {
+      "id": 18,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which course covers design of irrigation systems?",
+      "options": [
+        "Agricultural Economics",
+        "Food Science",
+        "Agricultural Engineering",
+        "Animal Production"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_med_18.ogg"
+    },
+    {
+      "id": 19,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which facility stores breeder and foundation seed stocks?",
+      "options": [
+        "Seed Bank",
+        "Grain Silo",
+        "Cold Room",
+        "Food Processing Unit"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_med_19.ogg"
+    },
+    {
+      "id": 20,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Medium",
+      "question": "Which field studies pricing and marketing of farm produce?",
+      "options": [
+        "Food Science & Technology",
+        "Agricultural Economics & Farm Management",
+        "Soil Science",
+        "Animal Health"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_med_20.ogg"
+    },
+    {
+      "id": 21,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "In soil science, a pH below 7 indicates the soil is:",
+      "options": [
+        "Neutral",
+        "Alkaline",
+        "Acidic",
+        "Saline"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_hard_21.ogg"
+    },
+    {
+      "id": 22,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "Which statistical method is used for analyzing crop yield trials?",
+      "options": [
+        "Regression Analysis",
+        "ANOVA",
+        "Time Series",
+        "Cluster Analysis"
+      ],
+      "answerIndex": 1,
+      "audio": "saat_hard_22.ogg"
+    },
+    {
+      "id": 23,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "In post-harvest technology, HPLC stands for:",
+      "options": [
+        "High-Performance Liquid Chromatography",
+        "Hydro-Pneumatic Lab Control",
+        "Heat Pressure Loss Calibration",
+        "High-Precision Laser Cutter"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_hard_23.ogg"
+    },
+    {
+      "id": 24,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "In ruminant nutrition, the first stomach chamber is called the:",
+      "options": [
+        "Abomasum",
+        "Omasum",
+        "Rumen",
+        "Reticulum"
+      ],
+      "answerIndex": 2,
+      "audio": "saat_hard_24.ogg"
+    },
+    {
+      "id": 25,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "In farm machinery, PTO stands for:",
+      "options": [
+        "Power Take-Off",
+        "Pump Timing Operation",
+        "Precision Tractor Output",
+        "Pressure Transfer O-ring"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_hard_25.ogg"
+    },
+    {
+      "id": 26,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "IPM in pest management stands for:",
+      "options": [
+        "Integrated Pest Management",
+        "Insect Population Monitoring",
+        "Industrial Pesticide Mix",
+        "Immediate Pest Mitigation"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_hard_26.ogg"
+    },
+    {
+      "id": 27,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "In soil texture classification, which system is commonly used?",
+      "options": [
+        "USDA Soil Texture Triangle",
+        "Unified Soil Classification",
+        "AASHTO Classification",
+        "BS Soil Grading System"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_hard_27.ogg"
+    },
+    {
+      "id": 28,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "NDVI used in agricultural remote sensing stands for:",
+      "options": [
+        "Normalized Difference Vegetation Index",
+        "Natural Decomposition Value Indicator",
+        "Nutrient Deficiency Visual Analysis",
+        "Network Data Verification Instrument"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_hard_28.ogg"
+    },
+    {
+      "id": 29,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "In dairy processing, which process removes fat from milk?",
+      "options": [
+        "Homogenization",
+        "Pasteurization",
+        "Clarification",
+        "Centrifugation"
+      ],
+      "answerIndex": 3,
+      "audio": "saat_hard_29.ogg"
+    },
+    {
+      "id": 30,
+      "category": "School Of Agriculture And Agricultural Technology",
+      "difficulty": "Hard",
+      "question": "Which equipment measures evapotranspiration in crop fields?",
+      "options": [
+        "Lysimeter",
+        "Anemometer",
+        "Hygrometer",
+        "Spectrometer"
+      ],
+      "answerIndex": 0,
+      "audio": "saat_hard_30.ogg"
+    }
+  ]
+  

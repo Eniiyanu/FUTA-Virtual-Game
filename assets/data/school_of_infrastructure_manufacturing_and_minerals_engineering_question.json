@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "What does the acronym SIMME stand for at FUTA?",
+      "options": [
+        "School of Infrastructure and Mineral and Marine Engineering",
+        "School of Infrastructure and Mineral and Mining Engineering",
+        "School of Information, Mechanics and Mining Engineering",
+        "School of Industrial Materials and Mining Engineering"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_easy_1.ogg"
+    },
+    {
+      "id": 2,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "Which of these departments is part of SIMME?",
+      "options": [
+        "Ceramics Engineering",
+        "Construction Technology",
+        "Biochemical Engineering",
+        "Textile Engineering"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_easy_2.ogg"
+    },
+    {
+      "id": 3,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "Which tool is commonly used in surveying for SIMME students?",
+      "options": [
+        "Theodolite",
+        "Oscilloscope",
+        "Spectrometer",
+        "Thermometer"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_easy_3.ogg"
+    },
+    {
+      "id": 4,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "SIMME primarily focuses on which type of engineering?",
+      "options": [
+        "Mining Engineering",
+        "Electrical Engineering",
+        "Petroleum Engineering",
+        "Software Engineering"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_easy_4.ogg"
+    },
+    {
+      "id": 5,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "Which program involves underground excavations at SIMME?",
+      "options": [
+        "Open Pit Mining",
+        "Surface Mining",
+        "Underground Mining",
+        "Solar Mining"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_easy_5.ogg"
+    },
+    {
+      "id": 6,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "What facility houses heavy machinery maintenance in SIMME?",
+      "options": [
+        "Central Library",
+        "Heavy Equipment Workshop",
+        "Computer Laboratory",
+        "Administrative Block"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_easy_6.ogg"
+    },
+    {
+      "id": 7,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "Which lab would you visit for rock strength tests?",
+      "options": [
+        "Geotechnical Laboratory",
+        "Chemical Laboratory",
+        "Electrical Laboratory",
+        "Biology Laboratory"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_easy_7.ogg"
+    },
+    {
+      "id": 8,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "SIMME students learn about which type of mining?",
+      "options": [
+        "Marine Mining",
+        "Solar Mining",
+        "Open Pit Mining",
+        "Deep Sea Mining"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_easy_8.ogg"
+    },
+    {
+      "id": 9,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "In engineering, what does 'infrastructure' refer to?",
+      "options": [
+        "Natural ecosystems",
+        "Basic physical systems of a society",
+        "Computer networks",
+        "Biological research centers"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_easy_9.ogg"
+    },
+    {
+      "id": 10,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Easy",
+      "question": "Which department deals with construction materials?",
+      "options": [
+        "Civil Engineering",
+        "Construction Technology",
+        "Architecture",
+        "Urban Planning"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_easy_10.ogg"
+    },
+    {
+      "id": 11,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Which year was SIMME officially established at FUTA?",
+      "options": [
+        "2010",
+        "2012",
+        "2015",
+        "2018"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_med_11.ogg"
+    },
+    {
+      "id": 12,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Who was the pioneer dean of SIMME?",
+      "options": [
+        "Prof. A. E. Adegbite",
+        "Prof. F. I. Akinola",
+        "Prof. K. O. Balogun",
+        "Prof. M. T. Oladimeji"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_med_12.ogg"
+    },
+    {
+      "id": 13,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "SIMME split from which faculty in 2015?",
+      "options": [
+        "Civil and Environmental Engineering",
+        "Mechanical and Manufacturing Engineering",
+        "Electrical and Electronics Engineering",
+        "Environmental Technology"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_med_13.ogg"
+    },
+    {
+      "id": 14,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Which software is commonly used for structural analysis in SIMME?",
+      "options": [
+        "SPSS",
+        "AutoCAD",
+        "MATLAB",
+        "Photoshop"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_med_14.ogg"
+    },
+    {
+      "id": 15,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Which course focuses on soil stabilization and foundation design?",
+      "options": [
+        "Soil Mechanics",
+        "Fluid Mechanics",
+        "Thermodynamics",
+        "Circuit Analysis"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_med_15.ogg"
+    },
+    {
+      "id": 16,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Which equipment operation is taught in Open Pit Mining?",
+      "options": [
+        "Bulldozer Operation",
+        "Excavator Operation",
+        "Drilling Rig Operation",
+        "CNC Lathe Operation"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_med_16.ogg"
+    },
+    {
+      "id": 17,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "What is the daily sample capacity of the central mineral testing lab?",
+      "options": [
+        "100 samples",
+        "200 samples",
+        "500 samples",
+        "1,000 samples"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_med_17.ogg"
+    },
+    {
+      "id": 18,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Which facility is used for geotechnical testing at SIMME?",
+      "options": [
+        "Geotechnical Testing Laboratory",
+        "Instrumentation Workshop",
+        "Geophysical Centre",
+        "Electronics Lab"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_med_18.ogg"
+    },
+    {
+      "id": 19,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "Which organization funds research in SIMME’s mineral lab?",
+      "options": [
+        "World Bank",
+        "UNESCO",
+        "Nigerian Mining Corporation",
+        "European Union"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_med_19.ogg"
+    },
+    {
+      "id": 20,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Medium",
+      "question": "The Infrastructure and Development program mainly focuses on:",
+      "options": [
+        "Software Development",
+        "Agricultural Extension",
+        "Road and Structural Design",
+        "Environmental Psychology"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_med_20.ogg"
+    },
+    {
+      "id": 21,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "In slope stability analysis, the factor of safety is defined as the ratio of:",
+      "options": [
+        "Driving forces to resisting forces",
+        "Resisting forces to driving forces",
+        "Shear to normal forces",
+        "Cohesion to adhesion"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_hard_21.ogg"
+    },
+    {
+      "id": 22,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "Which geostatistical method is used for ore grade estimation?",
+      "options": [
+        "Regression Analysis",
+        "ANOVA",
+        "Kriging",
+        "Principal Component Analysis"
+      ],
+      "answerIndex": 2,
+      "audio": "simme_hard_22.ogg"
+    },
+    {
+      "id": 23,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "Which law governs fluid flow through porous media in soil mechanics?",
+      "options": [
+        "Mohr’s Law",
+        "Darcy’s Law",
+        "Hooke’s Law",
+        "Newton’s Law"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_hard_23.ogg"
+    },
+    {
+      "id": 24,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "What instrument measures porosity of core samples?",
+      "options": [
+        "Seismograph",
+        "Porosimeter",
+        "Anemometer",
+        "Spectrophotometer"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_hard_24.ogg"
+    },
+    {
+      "id": 25,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "Standard tunnel ventilation practice is designed to:",
+      "options": [
+        "Provide fresh air and remove hazardous gases",
+        "Supply water to workers",
+        "Heat the tunnel environment",
+        "Power the mining equipment"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_hard_25.ogg"
+    },
+    {
+      "id": 26,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "Which surveying method uses GNSS technology?",
+      "options": [
+        "Photogrammetry",
+        "GNSS Surveying",
+        "Terrestrial Laser Scanning",
+        "Ground Penetrating Radar"
+      ],
+      "answerIndex": 1,
+      "audio": "simme_hard_26.ogg"
+    },
+    {
+      "id": 27,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "In mineral processing, froth flotation is used to:",
+      "options": [
+        "Separate valuable minerals from gangue",
+        "Crush the ore to fine particles",
+        "Heat the mineral slurry",
+        "Dry the ore concentrate"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_hard_27.ogg"
+    },
+    {
+      "id": 28,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "A geophone in mining operations is used to detect:",
+      "options": [
+        "Seismic waves",
+        "Magnetic fields",
+        "Temperature changes",
+        "Chemical concentrations"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_hard_28.ogg"
+    },
+    {
+      "id": 29,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "What is backfill in mining operations?",
+      "options": [
+        "Material placed to fill voids after ore extraction",
+        "Support beams in tunnels",
+        "Process of sampling ore",
+        "Method of ore comminution"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_hard_29.ogg"
+    },
+    {
+      "id": 30,
+      "category": "School Of Infrastructure And Mineral And Mining Engineering",
+      "difficulty": "Hard",
+      "question": "In infrastructure planning, BRIP stands for:",
+      "options": [
+        "Basic Road Infrastructure Plan",
+        "Beam Reinforcement Inspection Protocol",
+        "Bridge Rehabilitation Initiative Program",
+        "Building Risk Inspection Procedure"
+      ],
+      "answerIndex": 0,
+      "audio": "simme_hard_30.ogg"
+    }
+  ]
+  

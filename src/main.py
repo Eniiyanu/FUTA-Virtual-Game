@@ -142,9 +142,9 @@ class MenuScene(SceneBase):
 class CategoryScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
-        prefix = game.selected_key
-        bg_file = f"{prefix}_bg.png"
-        self.bg = pygame.image.load(os.path.join(IMG_DIR, bg_file)).convert()
+        # Use a simple colored surface instead of loading a background image
+        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        self.bg.fill((0, 0, 128))
         self._play_music('calm_bgm.ogg')
         self.buttons = []
         w, h, g = 200, 60, 20
@@ -200,9 +200,10 @@ class InputScene(SceneBase):
 class QuizScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
+        # Use a simple colored surface instead of loading a background image
         prefix = game.selected_key
-        bg_file = f"{prefix}_bg.png"
-        self.bg = pygame.image.load(os.path.join(IMG_DIR, bg_file)).convert()
+        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        self.bg.fill((0, 0, 128))
         self._play_music('game.mp3')
         score_path = os.path.join(AUDIO_DIR, 'score.wav')
         self.score_sfx = pygame.mixer.Sound(score_path) if os.path.exists(score_path) else None

@@ -144,12 +144,12 @@ class MenuScene(SceneBase):
             for rect, label, key in self.icon_rects:
                 if rect.collidepoint(evt.pos):
                     if label == 'Cancel':
-<<<<<<<<< Temporary merge branch 1
+                        self.game.change_scene(SCENE_MENU)
+
+                        self.game.running = False
                         pygame.quit()
                         sys.exit()
-=========
-                        self.game.running = False
->>>>>>>>> Temporary merge branch 2
+
                     elif label == 'Settings':
                         self.game.change_scene(SCENE_SETTINGS)
                     else:

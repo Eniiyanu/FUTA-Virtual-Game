@@ -134,7 +134,10 @@ class MenuScene(SceneBase):
             for rect, label, key in self.icon_rects:
                 if rect.collidepoint(evt.pos):
                     if label == 'Cancel':
-                        self.game.change_scene(SCENE_MENU)
+                        pygame.quit()
+                        sys.exit()
+                    elif label == 'Settings':
+                        self.game.change_scene(SCENE_SETTINGS)
                     else:
                         self.game.selected_school = label
                         self.game.selected_key = key

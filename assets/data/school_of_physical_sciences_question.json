@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "What does the acronym SPS stand for at FUTA?",
+      "options": [
+        "School of Pharmaceutical Sciences",
+        "School of Physical Sciences",
+        "School of Plant Sciences",
+        "School of Political Sciences"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_easy_1.ogg"
+    },
+    {
+      "id": 2,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which department is NOT part of the School of Physical Sciences?",
+      "options": [
+        "Department of Chemistry",
+        "Department of Physics",
+        "Department of Geology",
+        "Department of Computer Science"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_physical_sciences_easy_2.ogg"
+    },
+    {
+      "id": 3,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which laboratory would you visit for crystal structure analysis?",
+      "options": [
+        "Geology Lab",
+        "Optics Lab",
+        "X-Ray Diffraction Lab",
+        "Biochemistry Lab"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_physical_sciences_easy_3.ogg"
+    },
+    {
+      "id": 4,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which tool measures pH in chemistry experiments?",
+      "options": [
+        "Spectrometer",
+        "pH meter",
+        "Voltmeter",
+        "Thermometer"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_easy_4.ogg"
+    },
+    {
+      "id": 5,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which course introduces the study of matter and its interactions?",
+      "options": [
+        "General Biology",
+        "Introduction to Physics",
+        "General Chemistry",
+        "Physical Geography"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_physical_sciences_easy_5.ogg"
+    },
+    {
+      "id": 6,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which facility houses high-performance computing for simulations?",
+      "options": [
+        "Computer Resource Centre",
+        "Analytical Chemistry Lab",
+        "Geology Field Station",
+        "Physics Research Centre"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_physical_sciences_easy_6.ogg"
+    },
+    {
+      "id": 7,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which department studies the earth’s physical properties?",
+      "options": [
+        "Department of Geology",
+        "Department of Biology",
+        "Department of Mathematics",
+        "Department of Computer Science"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_easy_7.ogg"
+    },
+    {
+      "id": 8,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "In physics, what unit measures electrical resistance?",
+      "options": [
+        "Ampere",
+        "Ohm",
+        "Volt",
+        "Watt"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_easy_8.ogg"
+    },
+    {
+      "id": 9,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which instrument is used to separate mixtures by mass?",
+      "options": [
+        "Centrifuge",
+        "Spectrophotometer",
+        "Microscope",
+        "Balance"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_physical_sciences_easy_9.ogg"
+    },
+    {
+      "id": 10,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Easy",
+      "question": "Which year was the School of Physical Sciences established at FUTA?",
+      "options": [
+        "1999",
+        "2005",
+        "2010",
+        "2015"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_easy_10.ogg"
+    },
+    {
+      "id": 11,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Who was the pioneer Dean of the School of Physical Sciences?",
+      "options": [
+        "Prof. A. O. Balogun",
+        "Prof. B. K. Alese",
+        "Prof. C. L. Ogundeko",
+        "Prof. D. E. Akinsanya"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_physical_sciences_med_11.ogg"
+    },
+    {
+      "id": 12,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which software is commonly used for spectral data analysis in chemistry?",
+      "options": [
+        "MATLAB",
+        "SPSS",
+        "ChemOffice",
+        "AutoCAD"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_physical_sciences_med_12.ogg"
+    },
+    {
+      "id": 13,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which principle states that no two electrons can occupy the same quantum state?",
+      "options": [
+        "Heisenberg uncertainty principle",
+        "Pauli exclusion principle",
+        "Bernoulli’s principle",
+        "Archimedes’ principle"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_med_13.ogg"
+    },
+    {
+      "id": 14,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which branch of physics studies the behavior of fluids?",
+      "options": [
+        "Quantum mechanics",
+        "Thermodynamics",
+        "Fluid mechanics",
+        "Electrodynamics"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_physical_sciences_med_14.ogg"
+    },
+    {
+      "id": 15,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which analytical technique separates compounds by polarity using a column?",
+      "options": [
+        "Gas chromatography",
+        "X-Ray diffraction",
+        "UV-Vis spectroscopy",
+        "Mass spectrometry"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_med_15.ogg"
+    },
+    {
+      "id": 16,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which equipment measures seismic activity in geology?",
+      "options": [
+        "Seismograph",
+        "Anemometer",
+        "Barometer",
+        "Spectrometer"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_med_16.ogg"
+    },
+    {
+      "id": 17,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which law relates current, voltage, and resistance in an electrical circuit?",
+      "options": [
+        "Newton’s law",
+        "Ohm’s law",
+        "Faraday’s law",
+        "Hooke’s law"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_med_17.ogg"
+    },
+    {
+      "id": 18,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which gas law describes pressure inversely proportional to volume?",
+      "options": [
+        "Charles’s law",
+        "Boyle’s law",
+        "Avogadro’s law",
+        "Dalton’s law"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_med_18.ogg"
+    },
+    {
+      "id": 19,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which technique uses a laser to measure distance precisely?",
+      "options": [
+        "LIDAR",
+        "RADAR",
+        "SONAR",
+        "GPS"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_med_19.ogg"
+    },
+    {
+      "id": 20,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Medium",
+      "question": "Which mineral is the primary component of quartz?",
+      "options": [
+        "Feldspar",
+        "Silica",
+        "Calcite",
+        "Gypsum"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_med_20.ogg"
+    },
+    {
+      "id": 21,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which theorem is fundamental to the analysis of electric fields in physics?",
+      "options": [
+        "Stokes’ theorem",
+        "Gauss’s theorem",
+        "Green’s theorem",
+        "Taylor’s theorem"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_hard_21.ogg"
+    },
+    {
+      "id": 22,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "In crystallography, which system has three axes of unequal length all at right angles?",
+      "options": [
+        "Cubic",
+        "Orthorhombic",
+        "Tetragonal",
+        "Hexagonal"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_hard_22.ogg"
+    },
+    {
+      "id": 23,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which quantum number describes the shape of an electron orbital?",
+      "options": [
+        "Principal quantum number (n)",
+        "Angular momentum quantum number (ℓ)",
+        "Magnetic quantum number (m)",
+        "Spin quantum number (s)"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_hard_23.ogg"
+    },
+    {
+      "id": 24,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which equation relates energy and mass in relativity?",
+      "options": [
+        "F = ma",
+        "E = mc²",
+        "PV = nRT",
+        "V = IR"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_hard_24.ogg"
+    },
+    {
+      "id": 25,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which method is used to date rocks using uranium-lead decay?",
+      "options": [
+        "Radiocarbon dating",
+        "Thermoluminescence dating",
+        "U-Pb dating",
+        "Potassium-argon dating"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_physical_sciences_hard_25.ogg"
+    },
+    {
+      "id": 26,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which spectroscopic technique is used to study molecular vibrations?",
+      "options": [
+        "NMR spectroscopy",
+        "IR spectroscopy",
+        "UV-Vis spectroscopy",
+        "Mass spectrometry"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_hard_26.ogg"
+    },
+    {
+      "id": 27,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which law governs the distribution of electrons in multi-electron atoms?",
+      "options": [
+        "Hund’s rule",
+        "Pauli exclusion principle",
+        "Heisenberg uncertainty principle",
+        "Bohr model"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_hard_27.ogg"
+    },
+    {
+      "id": 28,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "In geophysics, which method uses sound waves to probe subsurface structures?",
+      "options": [
+        "Seismic reflection",
+        "Ground-penetrating radar",
+        "Magnetic resonance",
+        "Electrical resistivity"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_hard_28.ogg"
+    },
+    {
+      "id": 29,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which equation describes wave propagation in a medium?",
+      "options": [
+        "Schrödinger equation",
+        "Wave equation",
+        "Navier-Stokes equation",
+        "Laplace’s equation"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_physical_sciences_hard_29.ogg"
+    },
+    {
+      "id": 30,
+      "category": "School Of Physical Sciences",
+      "difficulty": "Hard",
+      "question": "Which crystal lattice has atoms at each corner and one in the center?",
+      "options": [
+        "Body-centered cubic",
+        "Face-centered cubic",
+        "Hexagonal close-packed",
+        "Simple cubic"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_physical_sciences_hard_30.ogg"
+    }
+  ]
+  

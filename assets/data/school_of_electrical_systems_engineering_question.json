@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "What does the acronym SESE stand for at FUTA?",
+      "options": [
+        "School of Earth and Soil Engineering",
+        "School of Electrical and Systems Engineering",
+        "School of Environmental Science and Ecology",
+        "School of Energy Systems Engineering"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_easy_1.ogg"
+    },
+    {
+      "id": 2,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Which department is NOT part of SESE?",
+      "options": [
+        "Computer Engineering",
+        "Biomedical Engineering",
+        "Chemical Engineering",
+        "Information & Communication Engineering"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_easy_2.ogg"
+    },
+    {
+      "id": 3,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Which of these fields is taught in SESE?",
+      "options": [
+        "Civil Engineering",
+        "Mechanical Engineering",
+        "Electrical/Electronics Engineering",
+        "Architecture"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_easy_3.ogg"
+    },
+    {
+      "id": 4,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "SESE’s Mechatronics Engineering combines electrical with which other discipline?",
+      "options": [
+        "Biology",
+        "Mechanical",
+        "Architecture",
+        "Chemical"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_easy_4.ogg"
+    },
+    {
+      "id": 5,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Which program in SESE applies engineering to medicine?",
+      "options": [
+        "Biomedical Engineering",
+        "Chemical Engineering",
+        "Mining Engineering",
+        "Urban Planning"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_easy_5.ogg"
+    },
+    {
+      "id": 6,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "What device would you learn about in Information & Communication Engineering?",
+      "options": [
+        "Theodolite",
+        "Oscilloscope",
+        "Spectrometer",
+        "Telescope"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_easy_6.ogg"
+    },
+    {
+      "id": 7,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Which department uses signal processing and control systems?",
+      "options": [
+        "Computer Science",
+        "Information & Communication Engineering",
+        "Architecture",
+        "Forest Resources"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_easy_7.ogg"
+    },
+    {
+      "id": 8,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Computer Engineering is housed under which school?",
+      "options": [
+        "School of Computing",
+        "School of Earth & Mineral Sciences",
+        "School of Electrical & Systems Engineering",
+        "School of Environmental Technology"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_easy_8.ogg"
+    },
+    {
+      "id": 9,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Which of these is a core focus of SESE?",
+      "options": [
+        "Food Science",
+        "Signal Processing",
+        "Landscape Architecture",
+        "Marine Biology"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_easy_9.ogg"
+    },
+    {
+      "id": 10,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Easy",
+      "question": "Mechatronics Engineering integrates electronics, mechanics, and ___.",
+      "options": [
+        "Architecture",
+        "Computing",
+        "Geology",
+        "Economics"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_easy_10.ogg"
+    },
+    {
+      "id": 11,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which year was SESE officially established at FUTA?",
+      "options": [
+        "2010",
+        "2018",
+        "2024",
+        "2005"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_med_11.ogg"
+    },
+    {
+      "id": 12,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Who was the pioneer Dean of SESE?",
+      "options": [
+        "Prof. A. O. Melodi",
+        "Prof. B. K. Alese",
+        "Prof. O. A. Bello-Olusoji",
+        "Prof. M. O. Ashamo"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_med_12.ogg"
+    },
+    {
+      "id": 13,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which former school did SESE split off from in 2024?",
+      "options": [
+        "School of Computing",
+        "School of Engineering & Engineering Technology",
+        "School of Environmental Technology",
+        "School of Sciences"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_med_13.ogg"
+    },
+    {
+      "id": 14,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Biomedical Engineering in SESE evolved from which department?",
+      "options": [
+        "Biomedical Technology",
+        "Medical Laboratory Science",
+        "Biochemistry",
+        "Physiology"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_med_14.ogg"
+    },
+    {
+      "id": 15,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which SESE program focuses on the design of circuits and optical systems?",
+      "options": [
+        "Mechatronics Engineering",
+        "Information & Communication Engineering",
+        "Computer Engineering",
+        "Biomedical Engineering"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_med_15.ogg"
+    },
+    {
+      "id": 16,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which lab would a student use for robotics and automation projects?",
+      "options": [
+        "Civil Engineering Workshop",
+        "Mechatronics Lab",
+        "Computer Resource Centre",
+        "Marine Science Lab"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_med_16.ogg"
+    },
+    {
+      "id": 17,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which field studies communication networks and wireless systems?",
+      "options": [
+        "Signal Processing",
+        "Power Systems Engineering",
+        "Information & Communication Engineering",
+        "Environmental Engineering"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_med_17.ogg"
+    },
+    {
+      "id": 18,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "SESE emphasizes producing graduates who are:",
+      "options": [
+        "Clinically oriented",
+        "Environmentally focused",
+        "Technologically proficient and innovative",
+        "Purely theoretical researchers"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_med_18.ogg"
+    },
+    {
+      "id": 19,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which software is commonly used for circuit simulation in SESE?",
+      "options": [
+        "AutoCAD",
+        "SPICE",
+        "MATLAB",
+        "Revit"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_med_19.ogg"
+    },
+    {
+      "id": 20,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Medium",
+      "question": "Which concept covers converting physical world signals into digital data?",
+      "options": [
+        "Analog filtering",
+        "Data mining",
+        "Signal processing",
+        "Quantitative surveying"
+      ],
+      "answerIndex": 2,
+      "audio": "sese_med_20.ogg"
+    },
+    {
+      "id": 21,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "In power systems engineering, what does 'SCADA' stand for?",
+      "options": [
+        "Supervisory Control And Data Acquisition",
+        "Signal Calibration And Data Analysis",
+        "System Control And Digital Automation",
+        "Sequential Current And Direct Access"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_21.ogg"
+    },
+    {
+      "id": 22,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "Which principle is fundamental to Mechatronics control systems?",
+      "options": [
+        "Feedback loop",
+        "Plate tectonics",
+        "Biochemical pathways",
+        "Urban zoning"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_22.ogg"
+    },
+    {
+      "id": 23,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "In ICE (Information & Communication Engineering), 'MIMO' refers to:",
+      "options": [
+        "Multiple Input Multiple Output",
+        "Minimal Interference Micro Operations",
+        "Modular Integrated Mobile Oscillator",
+        "Microcontroller Input/Output Module"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_23.ogg"
+    },
+    {
+      "id": 24,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "Which theorem is key in analyzing circuits containing resistors, inductors, and capacitors?",
+      "options": [
+        "Thevenin’s theorem",
+        "Bayes’ theorem",
+        "Central limit theorem",
+        "Noether’s theorem"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_24.ogg"
+    },
+    {
+      "id": 25,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "In signal processing, the Nyquist rate is defined as:",
+      "options": [
+        "Twice the maximum frequency of the signal",
+        "Half the sampling frequency",
+        "The average signal amplitude",
+        "The ratio of signal to noise"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_25.ogg"
+    },
+    {
+      "id": 26,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "Which device converts mechanical energy into electrical energy in Mechatronics?",
+      "options": [
+        "Transistor",
+        "Dynamo (generator)",
+        "Capacitor",
+        "Photodiode"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_hard_26.ogg"
+    },
+    {
+      "id": 27,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "In power systems, 'FACTS' devices are used to:",
+      "options": [
+        "Provide harmonic distortion",
+        "Control power flow and improve stability",
+        "Convert DC to AC solely",
+        "Measure frequency"
+      ],
+      "answerIndex": 1,
+      "audio": "sese_hard_27.ogg"
+    },
+    {
+      "id": 28,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "Which material property is most critical for transformer core design?",
+      "options": [
+        "Magnetic permeability",
+        "Thermal conductivity",
+        "Optical clarity",
+        "Biodegradability"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_28.ogg"
+    },
+    {
+      "id": 29,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "Which law relates voltage, current, and resistance in a circuit?",
+      "options": [
+        "Ohm’s law",
+        "Hooke’s law",
+        "Moore’s law",
+        "Murphy’s law"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_29.ogg"
+    },
+    {
+      "id": 30,
+      "category": "School Of Electrical And Systems Engineering",
+      "difficulty": "Hard",
+      "question": "In control theory, a PID controller uses proportional, integral, and:",
+      "options": [
+        "Derivative actions",
+        "Damping factors",
+        "Digital filters",
+        "Decibel scales"
+      ],
+      "answerIndex": 0,
+      "audio": "sese_hard_30.ogg"
+    }
+  ]
+  

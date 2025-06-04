@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "What is the primary focus of the School of Computing at FUTA?",
+      "options": [
+        "Mechanical design",
+        "Software development and information systems",
+        "Civil infrastructure",
+        "Food technology"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_easy_1.ogg"
+    },
+    {
+      "id": 2,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which degree is offered by the School of Computing?",
+      "options": [
+        "B.Tech. Computer Science",
+        "B.Sc. Geology",
+        "B.Eng. Chemical Engineering",
+        "B.Sc. Agriculture"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_2.ogg"
+    },
+    {
+      "id": 3,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which programming language is commonly taught in the introductory course?",
+      "options": [
+        "Python",
+        "LatteScript",
+        "BrickLang",
+        "GravelCode"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_3.ogg"
+    },
+    {
+      "id": 4,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "What facility provides high-performance computers for students?",
+      "options": [
+        "Computer Resource Centre",
+        "Mechanical Workshop",
+        "Chemical Lab",
+        "Agricultural Greenhouse"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_4.ogg"
+    },
+    {
+      "id": 5,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which course covers the basics of database management?",
+      "options": [
+        "DBA 101",
+        "Introduction to Databases",
+        "Civil Surveying",
+        "Food Processing"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_easy_5.ogg"
+    },
+    {
+      "id": 6,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which lab would you visit for networking experiments?",
+      "options": [
+        "Networking Lab",
+        "Concrete Lab",
+        "Bio Lab",
+        "Thermodynamics Lab"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_6.ogg"
+    },
+    {
+      "id": 7,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "What is the acronym for the school’s flagship programming competition?",
+      "options": [
+        "FUTCODE",
+        "MECHCOMP",
+        "CHEMCUP",
+        "AGRICHALLENGE"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_7.ogg"
+    },
+    {
+      "id": 8,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which department studies artificial intelligence and machine learning?",
+      "options": [
+        "Department of Computer Science",
+        "Department of Mining",
+        "Department of Civil Engineering",
+        "Department of Food Science"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_8.ogg"
+    },
+    {
+      "id": 9,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which software development methodology is taught in Software Engineering Department?",
+      "options": [
+        "Waterfall",
+        "Tectonic",
+        "Photoshop",
+        "Hydrodynamic"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_easy_9.ogg"
+    },
+    {
+      "id": 10,
+      "category": "School Of Computing",
+      "difficulty": "Easy",
+      "question": "Which year was the School of Computing established at FUTA?",
+      "options": [
+        "2008",
+        "2012",
+        "2004",
+        "2016"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_easy_10.ogg"
+    },
+    {
+      "id": 11,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which programming paradigm focuses on objects and classes?",
+      "options": [
+        "Procedural programming",
+        "Functional programming",
+        "Object-oriented programming",
+        "Linear programming"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_med_11.ogg"
+    },
+    {
+      "id": 12,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Who was the pioneer Dean of the School of Computing?",
+      "options": [
+        "Prof. A. B. Coker",
+        "Prof. D. E. Fadeyi",
+        "Prof. G. H. Ibe",
+        "Prof. J. K. Lakunle"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_med_12.ogg"
+    },
+    {
+      "id": 13,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which data structure uses LIFO order?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Graph",
+        "Tree"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_med_13.ogg"
+    },
+    {
+      "id": 14,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which network model has seven layers including Transport and Application?",
+      "options": [
+        "TCP/IP Model",
+        "OSI Model",
+        "HTTP Model",
+        "DNS Model"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_med_14.ogg"
+    },
+    {
+      "id": 15,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which algorithm sorts in O(n log n) average time?",
+      "options": [
+        "Bubble Sort",
+        "Insertion Sort",
+        "Quick Sort",
+        "Counting Sort"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_med_15.ogg"
+    },
+    {
+      "id": 16,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which database query language is standard for relational databases?",
+      "options": [
+        "NoSQL",
+        "SQL",
+        "SPSS",
+        "HTML"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_med_16.ogg"
+    },
+    {
+      "id": 17,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which principle emphasizes separation of concerns in software design?",
+      "options": [
+        "DRY (Don’t Repeat Yourself)",
+        "SOLID",
+        "KISS (Keep It Simple)",
+        "YAGNI (You Aren’t Gonna Need It)"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_med_17.ogg"
+    },
+    {
+      "id": 18,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which tool is used for version control in software projects?",
+      "options": [
+        "Docker",
+        "Git",
+        "Jenkins",
+        "Kubernetes"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_med_18.ogg"
+    },
+    {
+      "id": 19,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which concept describes asynchronous message passing?",
+      "options": [
+        "Blocking I/O",
+        "Non-blocking I/O",
+        "Multithreading",
+        "Callback functions"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_computing_med_19.ogg"
+    },
+    {
+      "id": 20,
+      "category": "School Of Computing",
+      "difficulty": "Medium",
+      "question": "Which web technology is used for styling HTML pages?",
+      "options": [
+        "CSS",
+        "SQL",
+        "XML",
+        "JSON"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_med_20.ogg"
+    },
+    {
+      "id": 21,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "What is the complexity of Dijkstra’s algorithm using a binary heap?",
+      "options": [
+        "O(V + E log V)",
+        "O(V^2)",
+        "O(E^2)",
+        "O(V log E)"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_computing_hard_21.ogg"
+    },
+    {
+      "id": 22,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which cryptographic technique uses pairs of keys for encryption and decryption?",
+      "options": [
+        "Symmetric key cryptography",
+        "Hashing",
+        "Asymmetric key cryptography",
+        "Steganography"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_hard_22.ogg"
+    },
+    {
+      "id": 23,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which machine learning algorithm is fundamentally a linear classifier?",
+      "options": [
+        "Decision Tree",
+        "Support Vector Machine",
+        "K-Means",
+        "Neural Network"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_hard_23.ogg"
+    },
+    {
+      "id": 24,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "In operating systems, which scheduling algorithm gives each process a fixed time slice?",
+      "options": [
+        "First-Come First-Served",
+        "Priority Scheduling",
+        "Round–Robin",
+        "Shortest Job Next"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_hard_24.ogg"
+    },
+    {
+      "id": 25,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which data structure is best for implementing a priority queue?",
+      "options": [
+        "Hash Table",
+        "Binary Heap",
+        "Linked List",
+        "Stack"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_hard_25.ogg"
+    },
+    {
+      "id": 26,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which SQL clause is used to filter grouped records?",
+      "options": [
+        "WHERE",
+        "HAVING",
+        "GROUP BY",
+        "ORDER BY"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_hard_26.ogg"
+    },
+    {
+      "id": 27,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which protocol is the foundation of secure HTTP (HTTPS)?",
+      "options": [
+        "FTP",
+        "SMTP",
+        "TLS/SSL",
+        "SSH"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_hard_27.ogg"
+    },
+    {
+      "id": 28,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which algorithm finds the strongly connected components in a directed graph?",
+      "options": [
+        "Kahn’s algorithm",
+        "Tarjan’s algorithm",
+        "Prim’s algorithm",
+        "Bellman–Ford algorithm"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_hard_28.ogg"
+    },
+    {
+      "id": 29,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "In computer graphics, what does GPU stand for?",
+      "options": [
+        "Graphical Performance Unit",
+        "General Processing Unit",
+        "Graphics Processing Unit",
+        "Global Parallel Unit"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_computing_hard_29.ogg"
+    },
+    {
+      "id": 30,
+      "category": "School Of Computing",
+      "difficulty": "Hard",
+      "question": "Which theorem underpins the RSA encryption algorithm?",
+      "options": [
+        "Central Limit Theorem",
+        "Fermat’s Little Theorem",
+        "Pythagorean Theorem",
+        "Bayes’ Theorem"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_computing_hard_30.ogg"
+    }
+  ]
+  

@@ -1,0 +1,423 @@
+[
+    {
+      "id": 1,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "What does the acronym SET stand for at FUTA?",
+      "options": [
+        "School of Environmental Technology",
+        "School of Electrical Technology",
+        "School of Engineering & Technology",
+        "School of Environmental Toxicology"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_easy_1.ogg"
+    },
+    {
+      "id": 2,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which department studies waste management and recycling?",
+      "options": [
+        "Environmental Management",
+        "Water Resources Engineering",
+        "Urban Planning",
+        "Biotechnology"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_easy_2.ogg"
+    },
+    {
+      "id": 3,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which facility would you visit for water quality testing?",
+      "options": [
+        "Water Treatment Plant",
+        "Environmental Chemistry Lab",
+        "Computer Lab",
+        "Mechanical Workshop"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_easy_3.ogg"
+    },
+    {
+      "id": 4,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which course introduces the study of atmospheric processes?",
+      "options": [
+        "Atmospheric Science",
+        "Soil Mechanics",
+        "Circuit Analysis",
+        "Food Processing"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_easy_4.ogg"
+    },
+    {
+      "id": 5,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which department focuses on sustainable energy solutions?",
+      "options": [
+        "Pollution Control Technology",
+        "Environmental Engineering",
+        "Renewable Energy Technology",
+        "Water Resources Engineering"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_easy_5.ogg"
+    },
+    {
+      "id": 6,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which tool measures particulate matter in air?",
+      "options": [
+        "Turbidity meter",
+        "Spectrophotometer",
+        "Particulate monitor",
+        "pH meter"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_easy_6.ogg"
+    },
+    {
+      "id": 7,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which program covers toxic waste cleanup methods?",
+      "options": [
+        "Environmental Chemistry",
+        "Pollution Control Technology",
+        "Biochemistry & Microbiology",
+        "Climate Change Studies"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_easy_7.ogg"
+    },
+    {
+      "id": 8,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which lab studies microbial remediation of contaminants?",
+      "options": [
+        "Biotechnology Lab",
+        "Environmental Microbiology Lab",
+        "Geotechnical Lab",
+        "Physics Lab"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_easy_8.ogg"
+    },
+    {
+      "id": 9,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which department deals with urban environmental planning?",
+      "options": [
+        "Soil Science",
+        "Urban & Regional Planning",
+        "Environmental Health Science",
+        "Water Resources"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_easy_9.ogg"
+    },
+    {
+      "id": 10,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Easy",
+      "question": "Which facility is used for climate data analysis?",
+      "options": [
+        "Meteorology Station",
+        "Soil Testing Center",
+        "Civil Workshop",
+        "Computer Lab"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_easy_10.ogg"
+    },
+    {
+      "id": 11,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which treaty focuses on global climate change mitigation?",
+      "options": [
+        "Kyoto Protocol",
+        "Montreal Protocol",
+        "Geneva Convention",
+        "Paris Accord"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_environmental_technology_med_11.ogg"
+    },
+    {
+      "id": 12,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Who was the pioneer Dean of SET at FUTA?",
+      "options": [
+        "Prof. A. O. Akinola",
+        "Prof. B. E. Odeyemi",
+        "Prof. C. D. Salawu",
+        "Prof. D. F. Ogunkunle"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_med_12.ogg"
+    },
+    {
+      "id": 13,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which process uses microbes to degrade oil spills?",
+      "options": [
+        "Bioaugmentation",
+        "Bioremediation",
+        "Photolysis",
+        "Adsorption"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_med_13.ogg"
+    },
+    {
+      "id": 14,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which parameter indicates nutrient levels in water?",
+      "options": [
+        "Turbidity",
+        "Biochemical Oxygen Demand",
+        "pH",
+        "Conductivity"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_med_14.ogg"
+    },
+    {
+      "id": 15,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which modeling tool is used for flood risk assessment?",
+      "options": [
+        "ArcGIS",
+        "MATLAB",
+        "SPSS",
+        "AutoCAD"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_med_15.ogg"
+    },
+    {
+      "id": 16,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which gas law is applied to atmospheric studies?",
+      "options": [
+        "Boyle’s Law",
+        "Charles’s Law",
+        "Ideal Gas Law",
+        "Dalton’s Law"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_med_16.ogg"
+    },
+    {
+      "id": 17,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which GIS technique maps land‐use change over time?",
+      "options": [
+        "Raster analysis",
+        "Buffering",
+        "Network analysis",
+        "Metadata cataloging"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_med_17.ogg"
+    },
+    {
+      "id": 18,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which type of soil erosion control uses vegetation cover?",
+      "options": [
+        "Terracing",
+        "Mulching",
+        "Bioengineering",
+        "Gully plugging"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_med_18.ogg"
+    },
+    {
+      "id": 19,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which pollutant is measured by NOx sensors?",
+      "options": [
+        "Nitrogen oxides",
+        "Sulfur dioxide",
+        "Carbon monoxide",
+        "Ozone"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_med_19.ogg"
+    },
+    {
+      "id": 20,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Medium",
+      "question": "Which technology treats wastewater using algae?",
+      "options": [
+        "Algal ponds",
+        "Activated sludge",
+        "Membrane bioreactor",
+        "UV disinfection"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_med_20.ogg"
+    },
+    {
+      "id": 21,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which index measures urban heat island effect from satellite data?",
+      "options": [
+        "NDVI",
+        "LST (Land Surface Temperature)",
+        "EVI",
+        "NDMI"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_hard_21.ogg"
+    },
+    {
+      "id": 22,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which principle underlies gas chromatography separation?",
+      "options": [
+        "Partition coefficient",
+        "Electrostatic attraction",
+        "Thermal degradation",
+        "Photochemical reaction"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_hard_22.ogg"
+    },
+    {
+      "id": 23,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which statistical method analyzes spatial autocorrelation?",
+      "options": [
+        "Moran’s I",
+        "ANOVA",
+        "Regression analysis",
+        "Time series"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_hard_23.ogg"
+    },
+    {
+      "id": 24,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which engineering design uses pervious pavement to reduce runoff?",
+      "options": [
+        "Green roof",
+        "Rain garden",
+        "Pervious concrete",
+        "Constructed wetland"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_hard_24.ogg"
+    },
+    {
+      "id": 25,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which equation models contaminant transport in groundwater?",
+      "options": [
+        "Darcy’s Law",
+        "Advection–dispersion equation",
+        "Navier–Stokes equation",
+        "Bernoulli’s equation"
+      ],
+      "answerIndex": 1,
+      "audio": "school_of_environmental_technology_hard_25.ogg"
+    },
+    {
+      "id": 26,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which spectral band is most sensitive to chlorophyll reflectance?",
+      "options": [
+        "Blue",
+        "Green",
+        "Red-edge",
+        "Thermal infrared"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_hard_26.ogg"
+    },
+    {
+      "id": 27,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which climate model component simulates ocean–atmosphere interactions?",
+      "options": [
+        "Land surface model",
+        "Atmospheric model",
+        "Ocean model",
+        "Coupler module"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_environmental_technology_hard_27.ogg"
+    },
+    {
+      "id": 28,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which tracer is used to estimate groundwater recharge rates?",
+      "options": [
+        "Tritium",
+        "Carbon-14",
+        "Chlorofluorocarbons",
+        "All of the above"
+      ],
+      "answerIndex": 3,
+      "audio": "school_of_environmental_technology_hard_28.ogg"
+    },
+    {
+      "id": 29,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which material is used for geotextile filtration in drainage systems?",
+      "options": [
+        "Polypropylene",
+        "Ceramic",
+        "Stainless steel",
+        "Concrete"
+      ],
+      "answerIndex": 0,
+      "audio": "school_of_environmental_technology_hard_29.ogg"
+    },
+    {
+      "id": 30,
+      "category": "School Of Environmental Technology",
+      "difficulty": "Hard",
+      "question": "Which equation describes pollutant dispersion in open channel flow?",
+      "options": [
+        "Saint-Venant equations",
+        "Manning’s equation",
+        "Advection–diffusion equation",
+        "Bernoulli’s equation"
+      ],
+      "answerIndex": 2,
+      "audio": "school_of_environmental_technology_hard_30.ogg"
+    }
+  ]
+  

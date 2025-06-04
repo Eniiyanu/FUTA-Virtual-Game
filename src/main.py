@@ -25,6 +25,8 @@ SCENE_MENU = 'menu'
 SCENE_CATEGORY = 'category'
 SCENE_INPUT = 'input'
 SCENE_QUIZ = 'quiz'
+SCENE_CREDITS = 'credits'
+SCENE_SETTINGS = 'settings'
 
 # Time limits per difficulty
 TIME_LIMITS = {'Easy': 20, 'Medium': 15, 'Hard': 10}
@@ -142,9 +144,9 @@ class MenuScene(SceneBase):
 class CategoryScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
-        prefix = game.selected_key
-        bg_file = f"{prefix}_bg.png"
-        self.bg = pygame.image.load(os.path.join(IMG_DIR, bg_file)).convert()
+        # Use a simple colored surface instead of loading a background image
+        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        self.bg.fill((0, 0, 128))
         self._play_music('calm_bgm.ogg')
         self.buttons = []
         w, h, g = 200, 60, 20
@@ -200,9 +202,10 @@ class InputScene(SceneBase):
 class QuizScene(SceneBase):
     def __init__(self, game):
         super().__init__(game)
+        # Use a simple colored surface instead of loading a background image
         prefix = game.selected_key
-        bg_file = f"{prefix}_bg.png"
-        self.bg = pygame.image.load(os.path.join(IMG_DIR, bg_file)).convert()
+        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        self.bg.fill((0, 0, 128))
         self._play_music('game.mp3')
         score_path = os.path.join(AUDIO_DIR, 'score.wav')
         self.score_sfx = pygame.mixer.Sound(score_path) if os.path.exists(score_path) else None
@@ -305,6 +308,55 @@ class QuizScene(SceneBase):
             b.handle_event(evt)
         super().handle_event(evt)
 
+class CreditsScene(SceneBase):
+    def __init__(self, game):
+        super().__init__(game)
+        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        self.bg.fill((20, 20, 60))
+        self.lines = [
+            "FUTA Virtual Game",
+            "Developed by FUTA Team",
+            "Thank you for playing!",
+        ]
+
+    def draw(self, surf):
+        surf.blit(self.bg, (0, 0))
+        for i, line in enumerate(self.lines):
+            txt = pygame.font.Font(None, 48).render(line, True, (255, 255, 255))
+            rect = txt.get_rect(center=(SCREEN_WIDTH/2, 200 + i*60))
+            surf.blit(txt, rect)
+        self.draw_bottom(surf)
+
+class SettingsScene(SceneBase):
+    def __init__(self, game):
+        super().__init__(game)
+        self.bg = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))
+        self.bg.fill((60, 20, 20))
+        self.volume = pygame.mixer.music.get_volume()
+        self.font = pygame.font.Font(None, 36)
+
+    def draw(self, surf):
+        surf.blit(self.bg, (0, 0))
+        txt = self.font.render("Music Volume", True, (255, 255, 255))
+        surf.blit(txt, (100, 200))
+        bar_width = 400
+        bar_rect = pygame.Rect(100, 250, bar_width, 20)
+        pygame.draw.rect(surf, (100, 100, 100), bar_rect)
+        fill_rect = bar_rect.copy()
+        fill_rect.width = int(bar_width * self.volume)
+        pygame.draw.rect(surf, (200, 200, 0), fill_rect)
+        self.draw_bottom(surf)
+
+    def handle_event(self, evt):
+        if evt.type == pygame.KEYDOWN:
+            if evt.key == pygame.K_LEFT:
+                self.volume = max(0.0, self.volume - 0.1)
+                pygame.mixer.music.set_volume(self.volume)
+            elif evt.key == pygame.K_RIGHT:
+                self.volume = min(1.0, self.volume + 0.1)
+                pygame.mixer.music.set_volume(self.volume)
+        super().handle_event(evt)
+
 class Game:
     def __init__(self):
         pygame.init()
@@ -328,18 +380,31 @@ class Game:
         self.change_scene(SCENE_SPLASH)
 
     def change_scene(self, name):
-        if name not in self.scenes:
-            if name == SCENE_CATEGORY:
-                self.scenes[name] = CategoryScene(self)
-            elif name == SCENE_INPUT:
-                self.scenes[name] = InputScene(self, self.selected_difficulty)
-            elif name == SCENE_QUIZ:
-                self.scenes[name] = QuizScene(self)
+        if name == SCENE_CATEGORY:
+            self.scenes[name] = CategoryScene(self)
+        elif name == SCENE_INPUT:
+            self.scenes[name] = InputScene(self, self.selected_difficulty)
+        elif name == SCENE_QUIZ:
+            self.scenes[name] = QuizScene(self)
+        elif name == SCENE_CREDITS:
+            self.scenes[name] = CreditsScene(self)
+        elif name == SCENE_SETTINGS:
+            self.scenes[name] = SettingsScene(self)
+        else:
+            if name not in self.scenes:
+                if name == SCENE_MENU:
+                    self.scenes[name] = MenuScene(self)
+                elif name == SCENE_SPLASH:
+                    self.scenes[name] = SplashScene(self)
         self.scene = self.scenes[name]
 
     def on_bottom(self, label):
-        # handle bottom buttons if needed
-        pass
+        if label == 'Cancel':
+            self.change_scene(SCENE_MENU)
+        elif label == 'Credits':
+            self.change_scene(SCENE_CREDITS)
+        elif label == 'Settings':
+            self.change_scene(SCENE_SETTINGS)
 
     def start_quiz(self, difficulty):
         self.selected_difficulty = difficulty
